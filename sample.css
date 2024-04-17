@@ -1,0 +1,83 @@
+/* Basic styling for input */
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for submit button */
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for submit button */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /* Styling for the button */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Active (clicked) state for the button */
+  button:active {
+    background-color: #21618c;
+  }
+
+  /* Styling for the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling for list items */
+  li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for list items */
+  li:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Styling for Heading 4 */
+h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .center-container {
+    text-align: center;
+  }
+  
+  .center-container input,
+  .center-container button {
+    margin: 10px;
+  }
+  
